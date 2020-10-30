@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #175499;
+    color: #fefefe;
+}
+
+.loginForm {
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.error {
+    color: #ff7e7e;
+}
+
+.textfield {
+    color: #fefefe !important;
+    border: 2px solid #fefefe;
+}
+
+
+.textfield:focus {
+    outline: none;
+}
+
+.textfield__label {
+    color: #fefefe !important;
+}
+
+.formAlign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account_Link {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.homePage {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #175499;
+    color: #fefefe;
+}
+
+.diariesSection {
+    display: flex;
+    flex: 0.25;
+    flex-direction: column;
+    padding: 5px 10px;
+    border-right: 1px solid #fefefe;
+    overflow-y: scroll;
+    color: #fefefe;
+}
+
+.diariesSection::-webkit-scrollbar {
+    display: none;
+}
+
+.diary_tile {
+    padding: 5px 10px;
+    border-bottom: 1px solid #72a5e0;
+}
+
+.diary_tile h2 {
+    text-transform: uppercase;
+    margin: 3px 0;
+}
+
+.diary_tile p {
+    text-transform: capitalize;
+    margin: 3px 0;
+}
+
+.diary_tileBtns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnSize {
+    width: 200px;
+    height: 30px;
+    background-color: #f50057;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    color: #fefefe;
+}
+
+.diariesList {
+    margin: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #fefefe;
+}
+
+.entries {
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.entries h3 {
+    color: #fefefe;
+}
+
+.editorSection {
+    display: flex;
+    flex: 0.75;
+    flex-direction: column;
+}
+
+.editorSection input,
+textarea {
+    width: 80%;
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+    border: 5px solid #fefefe;
+    border-radius: 10px;
+    background-color: #fefefe;
+    color: #111111;
+}
+
+.editorSection h4,
+Markdown {
+    margin-left: 10px;
+}
+
+.editorSection input {
+    height: 50px;
+}
+
+.editorSection textarea {
+    height: 80%;
+}
+
+.editorSection input:focus {
+    outline: none;
+}
+
+.Savebtn {
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    margin: 15px;
+    font-size: 20px;
+    background-color: #f50057;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fefefe;
+}
